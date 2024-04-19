@@ -7,13 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       {/* Sidebar */}
       <Sidebar/>
-      <div className="wrapper">
-        
-        {/* <div className="social">
-        <h3 style={{color:"black"}}>Contact</h3>
-        </div>
-         */}
-      </div>
+      
     </div>
   );
 };
