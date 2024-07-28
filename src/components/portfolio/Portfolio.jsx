@@ -49,7 +49,7 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             
-           {item.id===3? <button > In production</button>: item.id===2?<button style={{display:"none"}}> In production</button> :<button> <a href={item.id===1? "https://https://kefetastartups.com/":item.id===2?"https://github.com/thomyhabesha/betelhemfire":item.id===4?"https://thomyhabesha.github.io/Tomswatch/":""} target="_blank" rel="noopener noreferrer" >  See website</a></button>}
+           {item.id===3? <button > In production</button>: item.id===2?<button style={{display:"none"}}> In production</button> :<button> <a href={item.id===1? "https://kefetastartups.com/":item.id===2?"https://github.com/thomyhabesha/betelhemfire":item.id===4?"https://thomyhabesha.github.io/Tomswatch/":""} target="_blank" rel="noopener noreferrer" >  See website</a></button>}
           </motion.div>
         </div>
       </div>
